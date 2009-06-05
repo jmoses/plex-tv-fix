@@ -18,7 +18,7 @@ from the backup, and you should be back to an unbroken state.
 # Usage
 
 Either download the script "plex_tv_fix.rb" and run it via Terminal, or download the
-"Platypus":http://www.sveinbjorn.org/platypus packaged script and just double-click it.
+"Platypus":http://www.sveinbjorn.org/platypus packaged script (plex_tv_fix.zip), unzip and run it.
 
 You have to run it as the user you run Plex as, and it should just find the appropriate file
 and work.
