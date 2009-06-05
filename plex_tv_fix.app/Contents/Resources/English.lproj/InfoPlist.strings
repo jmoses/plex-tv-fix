@@ -1,0 +1,4 @@
+CFBundleName = "plex_tv_fix";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "plex_tv_fix version 1.0 Copyright 2009 Jon";
+NSHumanReadableCopyright = "Copyright 2009 Jon.";

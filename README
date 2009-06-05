@@ -1,0 +1,48 @@
+# README
+
+This script/application just updates your TV show database to fix a bug in plex,
+which causes the show URLs to become incorrect.
+
+Adapted from discussion in this "thread":http://forums.plexapp.com/index.php?showtopic=4608
+and an Applescript by "gauvins":http://forums.plexapp.com/index.php?showuser=2745
+
+Converted to ruby, and simplfied, since I hate applescript.
+
+A backup is created, in the same directory, in case something goes wrong.
+
+/Users/[username]/Library/Application Support/Plex/userdata/Database
+
+The backup file is MyVideos34.db.backup.  Trash the 'MyVideos34.db' file and drop the '.backup'
+from the backup, and you should be back to an unbroken state.
+
+# Usage
+
+Either download the script "plex_tv_fix.rb" and run it via Terminal, or download the
+"Platypus":http://www.sveinbjorn.org/platypus packaged script and just double-click it.
+
+You have to run it as the user you run Plex as, and it should just find the appropriate file
+and work.
+
+It doesn't need any extra installs, as OSX comes with Ruby and the required sqlite3 library.
+
+Oh, and you probably shouldn't run it when Plex is running.  I have no idea how that will work.
+
+# Feedback/comments:
+
+jon@burningbush.us
+
+
+# License
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>
